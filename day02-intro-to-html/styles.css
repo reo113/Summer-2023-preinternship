@@ -1,0 +1,78 @@
+.text-red {
+  color: red;
+  margin: auto;
+  padding: auto;
+}
+.button {
+  margin-bottom: 2em;
+  width: 7em;
+  height: 3em;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  border: 6px solid black;
+  display: grid;
+  margin: 0 3em 2em;
+  grid-template-columns: repeat(3, minmax(auto, 200px));
+}
+.grid-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-1 {
+  background-color: #b4bf35;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item-2 {
+  background-color: #b95f21;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #cfb276;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+@media screen and (min-width: 30em) {
+  .container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    gap: 30px 20px;
+  }
+  .item-9 {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+  }
+}
+
+.j-desc{
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+  place-content: start;
+  gap: 20px;
+}
+.j-desc_details{
+  display: flex;
+  height: auto;
+}
+.j-desc_job_title{
+  margin: 0;
+}
