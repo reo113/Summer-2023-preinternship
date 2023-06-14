@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS, GRID,FLEXBOX & BOOTSTRAP</title>
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML, CSS, Grid, Flexbox & Bootstrap</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1 class="text-red">Job Application Tracker</h1>
-    <div class="text-center"><button class="button">Click me!</button></div>
-    <div class="container">
-        <div class="grid-item item-1">Item 1</div>
-        <div class="grid-item item-2">Item 2</div>
-        <div class="grid-item item-3">Item 3</div>
-        <div class="grid-item item-4">Item 4</div>
-        <div class="grid-item item-5">Item 5</div>
-        <div class="grid-item item-6">Item 6</div>
-        <div class="grid-item item-7">Item 7</div>
-        <div class="grid-item item-8">Item 8</div>
-        <div class="grid-item item-9">Item 9</div>
-    </div>
-    <section>
-        <div class="j-desc">
-            <img 
-            src="https://media.licdn.com/dms/image/C4E0BAQGv6PHLXLhQiA/company-logo_100_100/0/1551895923700?e=1694649600&v=beta&t=l5ak1HTeYGU8X_fKVcsYsxDjsyaJjt_maz6QXi8287Q"
-                alt="" class="j-desc_company-image" />
-            <div class="j-desc_details">
-                <h2 class="j-desc_job_title">College English Tutor</h2>
-                <p class="j-desc_company">Varsity Tutor</p>
-                <ul class="j-desc_metadata">
-                    <li class="j-desc_location">New Rochelle, NY</li>
-                    <li class="j-desc_salary">$30-$50k/y</li>
-                    <li class="j-desc_posting_date">1 week ago</li>
-                </ul>
-            </div>
-        </div>
-        <div class="j-desc">
-            <img
-                src="https://media.licdn.com/dms/image/C510BAQHrXpIwbtAUUQ/company-logo_100_100/0/1519857069750?e=1694649600&v=beta&t=Ed5tlPl1k1k5WLbDafjuYhppgn36vsIH3aSa7ALFheQ"
-                alt="" class="j-desc_company-image" />
-            <div class="j-desc_details">
-            <h2 class="j-desc_job_title">Data Analytics Intern</h2>
-            <p class="j-desc_company">Internship</p>
-            <ul class="j-desc_metadata">
-                <li class="j-desc_location">St Louis, MO </li>
-                <li class="j-desc_salary">$25/hr</li>
-                <li class="j-desc_posting_date">1 month ago</li>
-            </ul>
-        </div>
-    </div>
-        <div class="j-desc"><img
-                src="https://media.licdn.com/dms/image/D4E0BAQHHC_XxtsoKbg/company-logo_100_100/0/1685991653208?e=1694649600&v=beta&t=MXASg64qZapU61bZ--uQtqmnbd4JTD5wiNXxz-uMcSM"
-                alt="" class="j-desc_company-image">
-            <div class="j-desc_details">
-            <h2 class="j-desc_job_title">Computer Specialist</h2>
-            <p class="j-desc_company">MTA</p>
-            <ul class="j-desc_metadata">
-                <li class="j-desc_location">New York, NY</li>
-                <li class="j-desc_salary">$50k</li>
-                <li class="j-desc_posting_date">1 week ago</li>
-            </ul>
-        </div>
-    </div>
-    </section>
-</body>
+  <h1 class="text-red">Job Application Tracker</h1>
+  <div class="text-center btn-container">
+    <button class="btn">Click Me!</button>
+  </div>
 
+  <div class="container">
+    <div class="grid-item item-1">Item 1</div>
+    <div class="grid-item item-2">Item 2</div>
+    <div class="grid-item item-3">Item 3</div>
+    <div class="grid-item item-4">Item 4</div>
+    <div class="grid-item item-5">Item 5</div>
+    <div class="grid-item item-6">Item 6</div>
+    <div class="grid-item item-7">Item 7</div>
+    <div class="grid-item item-8">Item 8</div>
+    <div class="grid-item item-9">Item 9</div>
+  </div>
+  
+  <section>
+    <!-- job description card -->
+    <div class="j-desc">
+      <img 
+        src="https://media.licdn.com/dms/image/C4E0BAQEiY07GSLZtFQ/company-logo_100_100/0/1539023176649?e=1694649600&v=beta&t=-vb-4kpBSDXQ36ou1Rk95RbdCiQO4kYGzGEFsnqhRg4" 
+        alt="Aha! company logo" 
+        class="j-desc__company-image"
+      >
+      <div class="j-desc__details">
+        <h2 class="j-desc__job-title">Ruby on Rails Engineer</h2>
+        <p class="j-desc__company">Aha!</p>
+        <ul class="j-desc__metadata">
+          <li class="j-desc__location">Chicago, IL (Remote)</li>
+          <li class="j-desc__salary">$100k/yr - $160k/yr</li>
+          <li class="j-desc__posting_date">1 week ago</li>
+        </ul>
+      </div>
+    </div>
+    <div class="j-desc">
+      <img 
+        src="https://media.licdn.com/dms/image/C560BAQGiEbGtjE1o_w/company-logo_100_100/0/1523389063738?e=1694649600&v=beta&t=iWaF1nBxZfqNbg5mnkjkNWIbSAROTrqQrvpxDTEVUBk" 
+        alt="Cal State Long Beach Logo" 
+        class="j-desc__company-image"
+      >
+      <div class="j-desc__details">
+        <h2 class="j-desc__job-title">Junior Software Developer</h2>
+        <p class="j-desc__company">California State University, Long Beach</p>
+        <ul class="j-desc__metadata">
+          <li class="j-desc__location">Long Beach, CA (onsite)</li>
+          <li class="j-desc__salary">$3,713/m - $7,149/m</li>
+          <li class="j-desc__posting_date">5 days ago</li>
+        </ul>
+      </div>
+    </div>
+    <div class="j-desc">
+      <img 
+        src="https://media.licdn.com/dms/image/C560BAQFSVDtroiTPVg/company-logo_100_100/0/1662729127883?e=1694649600&v=beta&t=z8CL4Gnp_srDR0UYgOE7nwIQKp10vghZDjQwm2CGGBE" 
+        alt="Jobot company logo" 
+        class="j-desc__company-image"
+      >
+      <div class="j-desc__details">
+        <h2 class="j-desc__job-title">Remote Wordpress Developer</h2>
+        <p class="j-desc__company">Jobot</p>
+        <ul class="j-desc__metadata">
+          <li class="j-desc__location">Malibu, CA (Hybrid)</li>
+          <li class="j-desc__salary">$50/hr - $75/hr</li>
+          <li class="j-desc__posting_date">1 week ago</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
